@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<!--this is the character set attribute specifies the character encoding got the HTML
+     document. UTF-8 character set covers almost all of the character and symbols in
+      this world. if you forget this, your fonts (especially custom ones) 
+      might not show up properly-->
+    <meta charset="utf-8">
+    <!--the view port tage sets the initial scale and it ensures proper responsive
+    behavior. We are overriding the browsers default styling  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--the title tag, shows up as the big blue line in search results and in the
+    browser tab-->
+    <title>HTML Elements 101</title>
+</head>
+<body>
+  <!--everything inside the body tags shows up in the browser window!-->
+  <h1 id="top">
+    Heading 1 is the most important text on the page. There should only be one h1 per page</h1>
+  <!--we have h1-h6, these are all more important than regular paragraph text-->
+  <h2>Heading 2</h2>
+  <h3>Heading 3</h3>
+  <h4>Heading 4</h4>
+  <h5>Heading 5</h5>
+  <h6>Heading 6</h6>
+  <!-- hr is a horizontal line across the page-->
+  <hr /> 
+  <!--most text will end up as p tag. you can weight certain words or phrases with
+em AND strong tags-->
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac turpis vel
+     eros varius malesuada. 
+     <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+     Duis lacus elit, malesuada sit amet diam nec, rutrum sodales diam.</em>
+     Etiam et luctus magna. Quisque scelerisque ac tortor sed facilisis. Nullam sed  
+     lacus. 
+     <strong>Nulla fermentum turpis quis tellus semper, non tincidunt nunc gravida. 
+     Suspendisse in hendrerit elit. </strong>
+     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
+     turpis egestas. Proin varius dolor nisi, 
+     <!-- just one is a soft break, new line-->
+     <br/>eget varius lacus eleifend non. Nam 
+     fermentum leo neque, eu ornare justo dignissim ac. Nulla dapibus velit sed
+      ipsum faucibus, non maximus leo vestibulum. Duismattis libero at pulvinar 
+      facilisis.</p>
+<h2>Buttermilk Pancakes!</h2>
+<p>This is a description of the recipe:)</p>
+<h3>Ingredient list</h3>
+<!-- ul is for unordered list: used for listing items when the exact order is not
+important-->
+<ul>
+    <!-- individual items in an ordered or unordered list needs li tags-->
+    <li>1 cup flour</li>
+    <li>1 cup milk</li>
+    <li>1 stick butter</li>
+    <li>2 tbsp sugar</li>
+    <li>1 egg</li>
+    <li>Spices
+        <ul>
+            <li>Cinnamon</li>
+            <li>Salt</li>
+            <li>Nutmeg</li>
+    </ul>
+</li>
+</ul>
+<h3>Instructions</h3>
+<!--ordered lists care about and display some sort of order notation-->
+<ol>
+    <li>Combine all ingredients in a bowl. Mix well</li>
+    <li>Heat pan on medium, melt 1 tbsp butter</li>
+    <li>Add a scoop of batter to the pan</li>
+    <li>Cook until golden brown</li>
+    <li>More steps to make the perfect pancake
+    
+        <ol>
+            <li>Count to 10</li>
+            <li>Flip the pancake</li>
+            <li>Count to 10</li>
+            <li>Take out of pan</li>
+        </ol>
+    </li>
+</ol>
+<!-- a stands for ancore, creates an ancore tag for a link
+href is an h refrence for a link-->
+<!-- anchor tags are for links to other locations on the same page, other pages on 
+the same site, or other pages on any site-->
+<!--href is the refrence to where you are linking to
+use target=_blank to open the link in a new tab
+use _self(default behavior) to open in the same tab
+-->
+<a href="https://sugarspunrun.com/buttermilk-pancakes/" target="_blank">
+    Link to a real pancake recipe!</a>
+    <br/>
+    <a href="#top"> Back to top of page </a>
+    <br/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-M5DLJ7EzEWvIJSShW3P6TwjC5ic6_u3IZg&usqp=CAU"
+    width="500px"
+    height="500px"
+    alt="Buttermilk pancakes with hot maple syrup"
+    title="Buttermilk Pancakes"
+    />
+    <img src="img/pancakes.jpeg" alt="using an image inside our own sites img folder">
+    <a href="about/index.html" >
+About page link </a>
+
+</body>
+</html>
