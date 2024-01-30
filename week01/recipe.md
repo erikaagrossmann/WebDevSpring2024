@@ -4,6 +4,7 @@ Have you ever had puppy chow before? And no, I'm not talking about actual dog fo
 
 ![alt text](PuppyChow.png)
 
+
 ### INGREDIENTS
 - 1 Cup Chocolate Chips
 - 1 Cup Peanut Butter
