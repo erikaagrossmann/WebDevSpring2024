@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Simple Navbar</title>
+    <!-- link to google fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet"> -->
+		<!-- internal style sheet (only applies to this page/file) -->
+		<style type="text/CSS">
+      /* to import google font */
+      /* @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap'); */
+
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+					"Lucida Sans", Arial, sans-serif;
+          /* font-family: 'Cute Font', sans-serif; */
+			}
+     
+      /* THINGS YOU JUST HAVE TO DO!! */
+      ul {
+        /* remove all bullet points */
+        list-style-type: none;
+        overflow: hidden;
+        background-color: blanchedalmond;
+        /* make the parent elements font size 0 when using inline block to get rid
+        of the tiny annoiying space between letters (because inline is usually for text) */
+        font-size: 0;
+      }
+      li{
+        /* list items display block by default, they don't want to share horizontal space
+        with any other elements
+        we are making LI display inline block whcih gives us the benefits of both
+        block and inline */
+        display:inline-block;
+        font-size: 1rem;
+        /* width:200px; */
+
+      }
+      /* decendent selector is looking for this pattern */
+      li a{
+        display:block;
+        text-align: center;
+        /* make it a big chunky clickable area, not just the etxt itself */
+        width: 100px;
+        padding: 10px;
+        /* remove the default a tag styling */
+        text-decoration: none;
+        /* change link color */
+        color: darkmagenta;
+      }
+
+      /* highlight the active page in menu */
+      li a.active {
+        background-color: rgb(118, 107, 192);
+      }
+
+      li a:hover {
+        background-color: rgba(0, 0, 0, 10%);
+        color:#fff;
+      }
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#">Link 1</a></li>
+					<li><a class="active" href="#">Link 2</a></li>
+					<li><a href="#">Link 3</a></li>
+					<li><a href="#">Link 4</a></li>
+				</ul>
+			</nav>
+		</header>
+	</body>
+</html>
