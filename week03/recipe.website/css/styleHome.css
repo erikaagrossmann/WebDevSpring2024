@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+html  {
+    margin: 0px;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(89, 39, 32);
+}
+
+body {
+  margin: 0px;
+  font-family: 'Varela Round', sans-serif;
+    background-color:antiquewhite;
+}
+
+header {
+  background-color:lightgray;
+  padding: 7px 15px;
+  text-align: center;
+  font-family: 'Protest Riot', sans-serif;
+  font-size: 2rem;
+}
+
+a {
+  list-style-type: none;
+  color:rgb(89, 39, 32);
+}
+
+a:hover {
+  color:#fff;
+}
+
+.nav {
+  background-color:lightgray;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  
+}
+
+nav ul {
+  /* this inline is important! */
+  display: inline;
+  margin:0;
+  top:10px;
+  left:40px;
+  padding:15px 4px 17px 0px;
+  list-style-type: none;
+  position:absolute ;
+  box-shadow: 0,0,5px rgba (0,0,0,0.15);
+}
+
+nav ul li {
+  
+  display: inline-block;
+  position: relative;
+  padding: 15px 20px;
+  background: rgb(250, 240, 230);
+  box-shadow: 0,0,5px rgba (0,0,0,0.15);
+  cursor: pointer;
+  transition: all 0.5s;
+  
+}
+
+nav ul li:hover {
+  background-color: rgb(175, 110, 77);
+  color: #fff;
+  box-shadow: 0,0,5px rgba (0,0,0,0.15);
+}
+
+.description {
+  position: absolute;
+  width:30%;
+  top: 30%;
+  right: 200px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.picture {
+  padding:30px 100px;
+}
+
+.ingredients {
+  padding:30px 200px;
+  font-size: 1.5rem;
+}
+
+.ingredients ul {
+ font-size: 1rem;
+ line-height: 1.5rem;
+}
+
+.making {
+  position: absolute;
+  font-size: 1.5rem;
+  padding:30px 100px;
+  right: 100px;
+  left: 45%;
+  top: 92%;
+}
+
+.making ol {
+  font-size:1rem;
+  line-height: 1.5rem;
+}
+
+.foot {
+  background-color:lightgray;
+  position: absolute;
+  top:1300px;
+  width: 100%;
+  height:100px;
+
+}
+
+.foot p {
+  position: relative;
+left: 86%;
+top:10px;
+margin:0;
+padding:15px 4px 17px 0px;
+list-style-type: none;
+box-shadow: 0,0,5px rgba (0,0,0,0.15);
+color: rgb(89, 39, 32);
+
+
+display: inline-block;
+position: relative;
+padding: 15px 20px;
+background: rgb(250, 240, 230);
+color: black;
+cursor: pointer;
+transition: all 0.5s;
+}
+
+.foot p:hover {
+  background-color: rgb(175, 110, 77);;
+  color: #fff;
+}
