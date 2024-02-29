@@ -10,6 +10,7 @@ body, html {
     margin:0;
     padding:0;
     background-color: rgb(16, 12, 8);
+    font-family: 'montserrat', sans-serif;
 }
 
 header {
@@ -26,12 +27,21 @@ header {
 
   h1 {
     color: rgb(248, 222, 126);
+    text-align: center;
+    font-size:3rem;
   }
 
   img {
     width:100%;
     height:auto;
 }
+.logo {
+margin:0;
+padding:0;
+
+width:500px;
+}
+
 
   /* nav bar */
   .nav {
@@ -62,9 +72,48 @@ header {
 }
 
 .active {
-    color: red;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.7);
     cursor:pointer;
 }
 
 
+/* page */
+.description {
+    color:rgb(248, 222, 126);
+    display:flex;
+    position:absolute;
+    width:700px;
+    padding:2rem;
+    left:800px;
+    font-size: 1.5rem;
+}
+
+.cast {
+    display:flex;
+    position:absolute;
+    width: 700px;
+    right:830px;
+}
+
+
+.container {
+    padding:2rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position:absolute;
+    top:1100px;
+    align-items: center;
+    
+}
+
+.thumb {
+    position:relative;
+    
+    text-decoration: none; 
+    margin:2rem auto;
+    padding:4rem;
+    text-align:center;
+    color: red;
+}
