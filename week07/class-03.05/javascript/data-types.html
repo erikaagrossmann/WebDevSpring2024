@@ -4,6 +4,102 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>JS Data Types P1</title>
+    <style type="text/css">
+      /* comments look like this in css */
+    </style>
+    <script type="text/javascript">
+      // comments look like this in java
+
+      //declare a variable
+      var myVar;
+      //assign a value to a variable
+      myVar = "number";
+      // declare and assign in one line
+      var otherVar = 24;
+      console.log(myVar);
+      console.log(typeof myVar);
+      console.log(typeof otherVar);
+      //reassign a new value to myVar 
+      myVar = true;
+      console.log(myVar);
+      console.log(typeof myVar);
+
+      //how java can get you in trouble
+      //concatinating number 4 and string
+      console.log(4 + '16'); //416
+      //this works..?
+      console.log(4 * '16'); //64
+      //what other languages would do
+      console.log(6 * 'four'); //not a number
+
+      var temp = 72;
+      //this is how we insert variables between strings
+      console.log("Today's temperatue is " + temp + " degrees F");
+      //either way displays the same message
+      var message = "Today's temperatue is " + temp + " degrees F";
+      console.log(message);
+
+
+      //declare and define a function
+      function printMessage(){
+        console.log('Hello World');
+      }
+      //call/execute a function
+      printMessage();
+      
+
+      //a function with arguments/parameters
+      function sumVals(a,b) {
+        //whatever is written here between {} is our function
+        //any variables declared/assigned between {} live and die within this function
+        var sum= a+b;
+        console.log(sum);
+      }
+
+    
+
+      //calling sumVals function with 2 arguments
+      // sumVals(345,678);
+      //sum = 1023
+
+      //this will not work because sum is inside the pervious function and console.log is not
+      console.log(sum)
+
+      //booleans and conditionals
+      var isOn= true;
+      //toggle bewteen on and off
+      function switchOnOff() {
+        if (isOn === true) {
+          alert('isOn is currently true, switching to false now...')
+          isOn= false
+        } else {
+          alert('isOn is currently false, switching to true now...')
+          isOn= true
+        }
+      }
+
+      //loops and increments
+      // i++ is shorthand for i=i+1
+      // i-- is shorthand for i=i-1
+      // i+=5 is shorthand for i=i+5
+
+      //BEWARE OF INFINITE LOOPS IN ANY LANGUAGE
+      //your statement needs to always evaluate to false eventually
+
+      function countToN(n) {
+        //for loop
+        for (var i=0; i<=n; i++) {
+          console.log(i);
+        }
+      }
+
+    </script>
   </head>
-  <body></body>
+  <body>
+    <!-- comments look like this in html -->
+    <button onclick="sunVals(45,98)">Call sum values function</button>
+    <button onclick="switchOnOff()">Toggle on/off</button>
+
+    <button onclick="countToN(10)">Count to 10</button>
+  </body>
 </html>
