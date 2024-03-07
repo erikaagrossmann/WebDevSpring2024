@@ -1,6 +1,17 @@
-.parent {
+.parentRow {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding:2rem;
     align-items: center;
 }
+
+.parentColumn {
+    display: flex;
+    flex-direction: Column;
+    justify-content: space-between;
+    padding:2rem;
+    /* align-items: center; */
+}
+

@@ -8,25 +8,14 @@
 /* page contents */
 
 .pic {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 32%;
+    width: 40%;
     height: auto;
-    padding: 2rem;
-    margin:1rem;
+
 }
 
-.description {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left:35%;
-    top:200px;
-}
 
 .words {
-    width: 100%;
+    width: 50%;
     height: auto;
     padding: 7.5rem;
     margin:1rem;
@@ -34,13 +23,17 @@
     
 }
 
-.description h3 {
+.words h3 {
+    
     font-size: 2.5rem;
 }
 
-.description p{
+.words p{
+
     font-size: 1.5rem;
 }
+
+/* footer */
 
 footer {
     margin:1rem;
@@ -48,10 +41,7 @@ footer {
 }
 
 footer button {
-    display: flex;
-    position: absolute;
-    top:6200px;
-    right:2.5rem;
+
     font-size: 2rem;
     background-color:rgb(238, 220, 130);
     border-radius: 10px;
