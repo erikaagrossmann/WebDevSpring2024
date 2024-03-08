@@ -4,6 +4,43 @@
 @import url('../css/nav.css');
 
 
+/* page contents */
 
+.left {
+    color: #C0C0C0;
+    width: 35%;
+    text-align: center;
+    font-size: 1.5rem;
+}
 
+.welcome {
+    font-size: 2rem;
+    color: #318CE7;
+}
 
+.gossip {
+    font-size: 2rem;
+    color: #FF7518;
+}
+
+.pics {
+    font-size: 2rem;
+    color: #03C03C;
+}
+
+.parties {
+    font-size: 2rem;
+    color: #FF0090;
+}
+
+.post {
+    background-color: white;
+    border-radius: 10px;
+    width:60%;
+    margin:1rem;
+    padding:2rem;
+}
+
+.post h4 {
+    font-size: 2rem;
+}
