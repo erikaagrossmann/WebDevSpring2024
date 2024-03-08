@@ -8,9 +8,11 @@
 
 .left {
     color: #C0C0C0;
-    width: 35%;
+    width: 25%;
+    margin:1rem;
     text-align: center;
     font-size: 1.5rem;
+    
 }
 
 .welcome {
@@ -34,13 +36,49 @@
 }
 
 .post {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border-radius: 10px;
     width:60%;
     margin:1rem;
     padding:2rem;
+    align-items: center;
 }
 
 .post h4 {
     font-size: 2rem;
+}
+
+.post img {
+    width:100%;
+   
+}
+
+.form {
+    color: rgb(248, 222, 126);
+    text-align: center;
+    font-size: 2rem;
+    padding:2rem;
+    border-radius: 10px;
+}
+
+.gossips {
+padding:2rem;
+}
+
+.imgs {
+    padding:2rem;
+}
+
+.submit button {
+    border-radius: 10px;
+    font-size: 2rem;
+    color: rgb(248, 222, 126);
+   background-color: #666;
+}
+
+.submit button:hover {
+background-color: rgb(218, 165, 32);
+color:#666;
 }
