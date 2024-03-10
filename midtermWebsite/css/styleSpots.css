@@ -75,3 +75,39 @@
 .blue {
     color: #318CE7;
 }
+
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+    .map img {
+        order:1;
+    }
+
+    .left {
+        order:2;
+        width: 45%;
+    }
+
+    .right {
+        order:3;
+        width: 45%;
+    }
+}
+
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .map img {
+        order:1;
+    }
+
+    .left {
+        order:2;
+        width: 45%;
+    }
+
+    .right {
+        order:3;
+        width: 45%;
+    }
+}

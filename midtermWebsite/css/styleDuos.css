@@ -53,3 +53,29 @@ footer a {
     text-decoration: none;
     color:black;
 }
+
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .pic {
+        width:100%;
+    }
+
+    .words {
+        width:100%;
+        padding:2rem;
+    }
+}
+
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+    .pic {
+        width:100%;
+    }
+
+    .words {
+        width:100%;
+        padding:2rem;
+    }
+}

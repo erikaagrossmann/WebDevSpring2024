@@ -39,3 +39,35 @@ margin:0;
 padding:0;
 width:500px;
 }
+
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        text-align: center;
+        padding:0;
+    }
+
+    img{
+        margin:0.5;
+    }
+}
+
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        text-align: center;
+        padding:0;
+    }
+
+    img{
+        margin:0.5;
+    }
+}

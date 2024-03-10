@@ -59,4 +59,15 @@ footer a {
     color:black;
 }
 
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+    .pic {
+        width:44%;
+    }
+
+    .parentRow .person {
+        width:100%;
+    }
+}
 
