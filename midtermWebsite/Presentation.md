@@ -9,10 +9,15 @@
 
 2. Show snippet of code
 
-*pic here?
+![alt text](img/code.ofCss.png)
+![alt text](img/code.html:css.png)
 
-3. Next Steps: if I had more time
 
-    - iuwqnduejdi
-    - neduwneod
+
+3. Next Steps: if I had more time/adding for final
+
+    - adding more pages
+    - usable drop down nav with java
+    - image carousels
+    - working form submission
 
