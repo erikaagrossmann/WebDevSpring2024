@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>User Input Simple</title>
+    <script type="text/javascript">
+      let counter=0
+
+      //a function to call every x seconds or whatever
+      function intervalTest(){
+        let p= document.getElementById('timeElapsed')
+        p.innerHTML=counter
+        counter +=5
+      }
+
+      //call a function directly on the browser window and use serInterval to 
+      //say how often we want it to fire
+      window.setInterval(intervalTest, 1000)
+
+      if (counter === 100) {
+        window.clearInterval(intervalTest)
+      }
+    </script>
+  </head>
+  <body>
+    <p id="timeElapsed"> this will go away once the function overrides innerHTML</p>
+  </body>
+</html>
