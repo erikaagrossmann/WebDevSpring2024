@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JSON</title>
+    <script type="text/javascript">
+      let customer = {
+        firstName: 'Tony',
+        lastName: 'Pony',
+        age:23,
+        pets: ['dog', 'cat', 'rabbit'],
+      }
+      //above and below are the same thing (but top is in an object)
+      // let firstName = 'Tony'
+      // let age= 23
+
+      //access the customers first name property is with dot notation
+      console.log(customer.firstName)
+      //how would we log customers last name?
+      console.log(customer.lastName)
+      //log tonys second pet
+      console.log(customer.pets[1])
+      //log att tonys pets
+      for (var i=0; i< customer.pets.length; i++) {
+      console.log(customer.pets[i]) }
+
+      console.log(customer)
+      //we can add new properties to an existing object using dot notation
+      customer.age= 45
+      console.log(customer)
+
+        customer.isMarried = false
+        console.log(customer)
+        
+        customer.isMarried = true
+        console.log(customer)
+
+    </script>
+  </head>
+  <body></body>
+</html>
