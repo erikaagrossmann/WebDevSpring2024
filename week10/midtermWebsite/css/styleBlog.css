@@ -1,0 +1,135 @@
+
+@import url('../css/layout.css');
+@import url('../css/global.css');
+@import url('../css/nav.css');
+
+
+/* page contents */
+
+.left {
+    color: #C0C0C0;
+    width: 25%;
+    margin:1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+.welcome {
+    font-size: 2rem;
+    color: #318CE7;
+}
+
+.gossip {
+    font-size: 2rem;
+    color: #FF7518;
+}
+
+.pics {
+    font-size: 2rem;
+    color: #03C03C;
+}
+
+.parties {
+    font-size: 2rem;
+    color: #FF0090;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width:60%;
+    margin:1rem;
+    padding:2rem;
+    align-items: center;
+}
+
+.post h4 {
+    font-size: 2rem;
+}
+
+.post img {
+    width:100%;
+   
+}
+
+.form {
+    color: rgb(248, 222, 126);
+    text-align: center;
+    font-size: 2rem;
+    padding:2rem;
+    border-radius: 10px;
+}
+
+
+.gossips {
+padding:2rem;
+}
+
+.gossips p {
+    font-weight: 500;
+    color:rgb(218, 165, 32);
+}
+
+.imgs {
+    padding:2rem;
+}
+
+.submit button {
+    border-radius: 10px;
+    font-size: 2rem;
+    color: rgb(248, 222, 126);
+   background-color: #666;
+}
+
+.submit button:hover {
+background-color: rgb(218, 165, 32);
+color:#666;
+}
+
+/* footer */
+
+footer {
+    margin:1rem;
+    padding:2rem;
+}
+
+footer button {
+
+    font-size: 2rem;
+    background-color:rgb(238, 220, 130);
+    border-radius: 10px;
+    border:none;
+}
+
+footer a {
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+    color:black;
+}
+
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .left {
+        width: 70%;
+       }
+    
+       .post {
+        width:80%;
+       }
+}
+
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+   .left {
+    width: 70%;
+   }
+
+   .post {
+    width:80%;
+   }
+}

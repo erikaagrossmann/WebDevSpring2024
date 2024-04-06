@@ -1,0 +1,113 @@
+
+@import url('../css/layout.css');
+@import url('../css/global.css');
+@import url('../css/nav.css');
+
+
+
+
+/* page contents */
+
+.map img {
+    width:100%;
+    padding:2rem;
+   
+}
+
+.left {
+    width:20%
+}
+
+
+.left div {
+ 
+    color:rgb(238, 220, 130);
+}
+
+.right {
+    width:20%;
+}
+
+.right div {
+    color:rgb(238, 220, 130);
+}
+
+.thumb {
+    padding:2rem;
+    background-color: #777;
+    justify-content: space-around;
+}
+
+.block {
+    background-color: white;
+    padding:0.3rem;
+    text-align: center;
+}
+
+.pink {
+    color: #FF0090;
+}
+
+.DRed {
+    color: #7C0902;
+}
+
+.orange {
+    color: #FF7518;
+}
+
+.yellow {
+    color: #E6A817;
+}
+
+.purple {
+    color: #8806CE;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: #03C03C;
+}
+
+.blue {
+    color: #318CE7;
+}
+
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+    .map img {
+        order:1;
+    }
+
+    .left {
+        order:2;
+        width: 45%;
+    }
+
+    .right {
+        order:3;
+        width: 45%;
+    }
+}
+
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .map img {
+        order:1;
+    }
+
+    .left {
+        order:2;
+        width: 45%;
+    }
+
+    .right {
+        order:3;
+        width: 45%;
+    }
+}

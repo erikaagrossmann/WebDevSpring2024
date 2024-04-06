@@ -1,0 +1,81 @@
+
+@import url('../css/layout.css');
+@import url('../css/global.css');
+@import url('../css/nav.css');
+
+
+
+/* page contents */
+
+.pic {
+    width: 40%;
+    height: auto;
+
+}
+
+
+.words {
+    width: 50%;
+    height: auto;
+    padding: 7.5rem;
+    margin:1rem;
+    color:rgb(238, 220, 130);
+    
+}
+
+.words h3 {
+    
+    font-size: 2.5rem;
+}
+
+.words p{
+
+    font-size: 1.5rem;
+}
+
+/* footer */
+
+footer {
+    margin:1rem;
+    padding:2rem;
+}
+
+footer button {
+
+    font-size: 2rem;
+    background-color:rgb(238, 220, 130);
+    border-radius: 10px;
+    border:none;
+}
+
+footer a {
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+    color:black;
+}
+
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .pic {
+        width:100%;
+    }
+
+    .words {
+        width:100%;
+        padding:2rem;
+    }
+}
+
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+    .pic {
+        width:100%;
+    }
+
+    .words {
+        width:100%;
+        padding:2rem;
+    }
+}

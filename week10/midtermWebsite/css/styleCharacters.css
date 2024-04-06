@@ -1,0 +1,85 @@
+
+@import url('../css/layout.css');
+@import url('../css/global.css');
+@import url('../css/nav.css');
+
+
+
+/* page content */
+
+.pic {
+    width:23%;
+    margin:2rem auto;
+    
+    transform: scale(1);
+    transition: all 1s ease-in-out;
+}
+
+.pic:hover {
+transform: scale(1.3);
+cursor: pointer;
+z-index: 1000;
+}
+
+
+
+
+/* individual people */
+.description {
+    color:rgb(238, 220, 130);
+    font-size: 1.5rem;
+}
+
+
+.parentRow .person {
+    width:30%;
+    height:auto;
+    padding: 2rem;
+}
+
+
+/* footer */
+
+footer {
+    margin:1rem;
+    padding:2rem;
+}
+
+footer button {
+
+    font-size: 3rem;
+    background-color:rgb(238, 220, 130);
+    border-radius: 10px;
+    border:none;
+}
+
+footer a {
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+    color:black;
+}
+
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .pic {
+        width:44%;
+    }
+
+    .parentRow .person {
+        width:100%;
+    }
+}
+
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+    .pic {
+        width:80%;
+    }
+
+    .parentRow .person {
+        width:100%;
+    }
+}
+
