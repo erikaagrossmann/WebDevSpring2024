@@ -1,3 +1,7 @@
 @import url(./layout.css);
 @import url(./global.css);
 @import url(./nav.css);
+
+body {
+    background: url('../imgs/roses.jpeg');
+}

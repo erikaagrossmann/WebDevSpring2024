@@ -1,3 +1,42 @@
 @import url(./layout.css);
 @import url(./global.css);
 @import url(./nav.css);
+
+body {
+    background: url('../imgs/roses.jpeg');
+}
+
+h2 {
+    padding:2rem;
+    color: #A65252;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.pic {
+    padding:1rem;
+    width:700px;
+}
+
+.pic img {
+    border-radius: 30px;
+}
+
+.description {
+    padding:1rem;
+    color: #A65252;
+    font-size: 2.8rem;
+    text-align: center;
+    width: 700px;
+}
+
+/* .heart{
+    position: absolute;
+    height:200px;
+}
+
+.stars {
+    position:absolute;
+    width:100px;
+} */
+

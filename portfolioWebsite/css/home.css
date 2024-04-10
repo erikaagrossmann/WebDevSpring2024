@@ -2,12 +2,31 @@
 @import url(./global.css);
 @import url(./nav.css);
 
-.profile {
-    padding:2rem;
-    width:700px;
+body {
+    background: url('../imgs/roses.jpeg');
 }
 
-.description {
-    color: #EDC9CA;
-    font-size: 2rem;
+.profile {
+    padding:1rem;
+    width:800px;
+}
+
+.profile img {
+    border-radius: 10px;
+    border-top-left-radius: 330px;
+    border-top-right-radius: 330px;
+}
+
+.description1 {
+    padding:2rem;
+    color: #A65252;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.description2 {
+    padding:2rem;
+    color: #A65252;
+    font-size: 3rem;
+    text-align: center;
 }

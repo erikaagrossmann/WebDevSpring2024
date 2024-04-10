@@ -19,11 +19,11 @@
     display: block;
     padding:1rem;
     text-decoration: none;
-    color:#954949;
+    color:#A65252;
 }
 
 .nav li a:hover {
-    color:#954949;
+    color:#A65252;
     background-color: rgba(209,104,104,0.3);
     cursor:pointer;
 }
@@ -32,6 +32,7 @@
     background-color: rgba(209,104,104,0.8);
     cursor:pointer;
 }
+
 
 
 /* Tablet Sized Screens */

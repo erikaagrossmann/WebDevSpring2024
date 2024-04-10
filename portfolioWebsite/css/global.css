@@ -8,8 +8,9 @@
 body, html {
     margin:0;
     padding:0;
-    background-color: #A65252;
+    background-color: #EDC9CA;
     font-family: 'Chewy', sans-serif;
+
 }
 
 header {
@@ -22,10 +23,11 @@ header {
     background-color: #EDC9CA;
     font-family: 'Chewy', sans-serif;
     font-size: 1.5rem;
+    /* background: url('../imgs/background.jpeg'); */
   }
 
   h1 {
-    color: #A65252;
+    color: #D16868;
     text-align: center;
     font-size:3rem;
   }
