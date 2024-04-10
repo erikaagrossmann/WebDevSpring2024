@@ -1,0 +1,13 @@
+@import url(./layout.css);
+@import url(./global.css);
+@import url(./nav.css);
+
+.profile {
+    padding:2rem;
+    width:700px;
+}
+
+.description {
+    color: #EDC9CA;
+    font-size: 2rem;
+}

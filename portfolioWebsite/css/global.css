@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Chewy&display=swap');
+
+* {
+    box-sizing:border-box;
+}
+
+body, html {
+    margin:0;
+    padding:0;
+    background-color: #A65252;
+    font-family: 'Chewy', sans-serif;
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2rem;
+    position:relative;
+    background-color: #EDC9CA;
+    font-family: 'Chewy', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    color: #A65252;
+    text-align: center;
+    font-size:3rem;
+  }
+
+  img {
+    width:100%;
+    height:auto;
+}
+
+.logo {
+margin:0;
+padding:0;
+width:200px;
+}
+
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        text-align: center;
+        padding:0;
+    }
+
+    img{
+        margin:0.5;
+    }
+}
+
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        text-align: center;
+        padding:0;
+    }
+
+    img{
+        margin:0.5;
+    }
+}
