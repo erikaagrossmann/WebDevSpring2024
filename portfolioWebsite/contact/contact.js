@@ -8,11 +8,12 @@ document.addEventListener('DOMContentLoaded', function(){
   function outcomeP () {
     const message = `My Number is (267) 788-3813. Text or call me for inquiries!`
     document.getElementById('resultP').append(message)
-    
     }
 
+    
+
 function outcomeE () {
-    const message = `My Email is Erikaagrossmann@gmail.com. Email me for inquiries!`
+    const message = `My Email is Erikaagrossmann@gmail.com Email me for inquiries!`
     document.getElementById('resultE').append(message)
      }
 
@@ -22,6 +23,6 @@ function outcomeI () {
     }
 
 function outcomeL () {
-    const message = `My linkedIn is `
+    const message = `My linkedIn is Erika Grossman`
     document.getElementById('resultL').append(message)
     }

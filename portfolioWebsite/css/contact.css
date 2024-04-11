@@ -29,13 +29,16 @@ h2 {
  .icon {
     width:18%;
     padding:2rem;
+    
  }
 
  .icon img {
     border-radius: 30px;
+    /* background-color: #D16868; */
  }
 
- .icon img:hover {
+ .icon img:hover{
+    opacity: 50%;
     cursor: pointer;
  }
 
@@ -43,7 +46,18 @@ h2 {
 .result {
     padding:1rem;
     color: #A65252;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     /* width: 18%; */
+}
+
+.result2 {
+    padding:1rem;
+    color: #A65252;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.result2:hover {
+   cursor: pointer;
 }
