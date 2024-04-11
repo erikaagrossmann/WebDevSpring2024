@@ -5,3 +5,45 @@
 body {
     background: url('../imgs/roses.jpeg');
 }
+
+h2 {
+    padding:2rem;
+    color: #A65252;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.pic {
+    padding:1rem;
+    width:700px;
+}
+
+.pic img {
+    border-radius: 30px;
+}
+
+.pic img:hover {
+    cursor: pointer;
+ }
+
+ .icon {
+    width:18%;
+    padding:2rem;
+ }
+
+ .icon img {
+    border-radius: 30px;
+ }
+
+ .icon img:hover {
+    cursor: pointer;
+ }
+
+
+.result {
+    padding:1rem;
+    color: #A65252;
+    font-size: 1rem;
+    text-align: center;
+    /* width: 18%; */
+}

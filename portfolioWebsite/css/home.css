@@ -17,6 +17,10 @@ body {
     border-top-right-radius: 330px;
 }
 
+.profile img:hover {
+   cursor: pointer;
+}
+
 .description1 {
     padding:2rem;
     color: #A65252;
