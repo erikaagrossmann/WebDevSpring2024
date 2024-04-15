@@ -2,10 +2,6 @@
 @import url(./global.css);
 @import url(./nav.css);
 
-body {
-    background: url('../imgs/roses.jpeg');
-}
-
 h2 {
     padding:2rem;
     color: #A65252;
@@ -32,6 +28,8 @@ h2 {
     font-size: 2.8rem;
     text-align: center;
     width: 700px;
+    font-family: 'Playfair Display', 'serif';
+    font-weight: 600;
 }
 
 /* .heart{

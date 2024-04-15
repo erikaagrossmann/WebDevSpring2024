@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
     box-sizing:border-box;
@@ -23,6 +23,7 @@ header {
     background-color: #EDC9CA;
     font-family: 'Chewy', sans-serif;
     font-size: 1.5rem;
+    background: url('../imgs/roses.jpeg');
     /* background: url('../imgs/background.jpeg'); */
   }
 
@@ -39,8 +40,8 @@ header {
 
 .logo {
 margin:0;
-padding:0;
-width:200px;
+padding:1.5rem;
+width:500px;
 }
 
 /* Tablet Sized Screens */
@@ -62,6 +63,7 @@ width:200px;
 /* mobile screen */
 
 @media screen and (max-width:768px) {
+    
     header {
         flex-direction: column;
         justify-content: center;

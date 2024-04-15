@@ -2,10 +2,6 @@
 @import url(./global.css);
 @import url(./nav.css);
 
-body {
-    background: url('../imgs/roses.jpeg');
-}
-
 .profile {
     padding:1rem;
     width:800px;
@@ -33,4 +29,6 @@ body {
     color: #A65252;
     font-size: 3rem;
     text-align: center;
+    font-family: 'Playfair Display', 'serif';
+    font-weight: 600;
 }

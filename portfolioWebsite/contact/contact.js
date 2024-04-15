@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(){
     const phone= document.getElementById('phone').addEventListener('click', outcomeP)
     const email= document.getElementById('email').addEventListener('click', outcomeE)
-    const insta= document.getElementById('insta').addEventListener('click', outcomeI)
+    // const insta= document.getElementById('insta').addEventListener('click', outcomeI)
     const facebook= document.getElementById('linkedIn').addEventListener('click', outcomeL)
   })
 
@@ -17,10 +17,10 @@ function outcomeE () {
     document.getElementById('resultE').append(message)
      }
 
-function outcomeI () {
-    const message = `My Instagram is erika._paige`
-    document.getElementById('resultI').append(message)
-    }
+// function outcomeI () {
+//     const message = `My Instagram is erika._paige`
+//     document.getElementById('resultI').append(message)
+//     }
 
 function outcomeL () {
     const message = `My linkedIn is Erika Grossman`

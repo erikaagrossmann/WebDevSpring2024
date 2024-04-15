@@ -2,10 +2,6 @@
 @import url(./global.css);
 @import url(./nav.css);
 
-body {
-    background: url('../imgs/roses.jpeg');
-}
-
 h2 {
     padding:2rem;
     color: #A65252;
@@ -30,11 +26,6 @@ h2 {
     width:18%;
     padding:2rem;
     
- }
-
- .icon img {
-    border-radius: 30px;
-    /* background-color: #D16868; */
  }
 
  .icon img:hover{

@@ -16,6 +16,10 @@
     align-items: center;
 }
 
+.around{
+    justify-content: space-around;
+}
+
 .parentColumn {
     display: flex;
     flex-direction: Column;
