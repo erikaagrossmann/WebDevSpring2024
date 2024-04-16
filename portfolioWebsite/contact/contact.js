@@ -5,10 +5,14 @@ document.addEventListener('DOMContentLoaded', function(){
     const facebook= document.getElementById('linkedIn').addEventListener('click', outcomeL)
   })
 
+
+
   function outcomeP () {
     const message = `My Number is (267) 788-3813. Text or call me for inquiries!`
     document.getElementById('resultP').append(message)
+
     }
+
 
     
 
