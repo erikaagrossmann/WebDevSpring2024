@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+nav {
+    position: absolute;
+    right:2rem;
+    top:15rem;
+}
+
 .nav {
+
     list-style-type: none;
     padding: 0;
     margin:0;

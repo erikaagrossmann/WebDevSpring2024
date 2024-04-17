@@ -18,13 +18,20 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding:0 2rem;
+    padding:0rem;
     position:relative;
     background-color: #EDC9CA;
     font-family: 'Chewy', sans-serif;
     font-size: 1.5rem;
-    background: url('../imgs/roses.jpeg');
-    /* background: url('../imgs/background.jpeg'); */
+    /* background: url('../imgs/fixed.jpg'); */
+  }
+
+  .bg {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:20rem;
+    /* background: url('../imgs/fixed.jpg'); */
   }
 
   h1 {
@@ -39,9 +46,11 @@ header {
 }
 
 .logo {
+ position: absolute;
 margin:0;
 padding:1.5rem;
 width:500px;
+top:9rem;
 }
 
 /* Tablet Sized Screens */

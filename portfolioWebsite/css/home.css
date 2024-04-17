@@ -19,7 +19,7 @@
 
 .description1 {
     padding:2rem;
-    color: #A65252;
+    color: rgb(192,82,75);
     font-size: 5rem;
     text-align: center;
 }
@@ -31,4 +31,10 @@
     text-align: center;
     font-family: 'Playfair Display', 'serif';
     font-weight: 600;
+}
+
+.animation {
+    position:absolute;
+    top: 30rem;
+    left:8rem;
 }

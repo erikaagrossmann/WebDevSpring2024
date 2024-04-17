@@ -22,11 +22,18 @@ h2 {
     cursor: pointer;
  }
 
+ .container{
+    padding:0 6rem;
+ }
+
  .icon {
     width:18%;
-    padding:2rem;
-    
+    padding:1rem;
  }
+
+ .icon img {
+    border-radius: 15px;
+}
 
  .icon img:hover{
     opacity: 50%;
