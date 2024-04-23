@@ -37,4 +37,9 @@
     position:absolute;
     top: 30rem;
     left:8rem;
+    opacity:0;
+}
+
+ .active {
+    opacity:1;
 }
