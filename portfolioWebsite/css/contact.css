@@ -23,19 +23,23 @@ h2 {
  }
 
  .container{
-    padding:0 6rem;
+    margin:0;
+    padding:0 2rem;
  }
 
  .icon {
-    width:18%;
-    padding:1rem;
+    border-radius:30px;
+    width:28%;
+    height:500px;
+    padding:3rem;
+    background-color: rgba(209,128,60,0.3);
  }
 
  .icon img {
     border-radius: 15px;
 }
 
- .icon img:hover{
+ .icon a:hover{
     opacity: 50%;
     cursor: pointer;
  }
@@ -46,10 +50,18 @@ h2 {
     color: #A65252;
     font-size: 1.5rem;
     text-align: center;
-    /* width: 18%; */
 }
 
-.result2 {
+.icon h4{
+    opacity:0;
+}
+
+.icon h4:hover {
+    opacity:1;
+    cursor:pointer;
+}
+
+/* .result2 {
     padding:1rem;
     color: #A65252;
     font-size: 1.5rem;
@@ -58,4 +70,4 @@ h2 {
 
 .result2:hover {
    cursor: pointer;
-}
+} */

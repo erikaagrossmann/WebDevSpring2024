@@ -38,6 +38,13 @@
     align-items: center;
 }
 
+.parentColumnRight {
+    display: flex;
+    flex-direction: Column;
+    justify-content: space-between;
+    align-items: end;
+}
+
 
 /* Tablet Sized Screens */
 

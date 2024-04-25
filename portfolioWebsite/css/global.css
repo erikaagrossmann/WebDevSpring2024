@@ -67,6 +67,11 @@ top:9rem;
     img{
         margin:0.5;
     }
+
+    .logo {
+        width:300px;
+        top:4rem;
+    }
 }
 
 /* mobile screen */
@@ -83,5 +88,10 @@ top:9rem;
 
     img{
         margin:0.5;
+    }
+
+    .logo {
+        width:300px;
+        top:3rem;
     }
 }
