@@ -4,13 +4,15 @@
 
 .profile {
     padding:1rem;
-    width:800px;
+    max-width:800px;
+    position: relative;
 }
 
 .profile img {
     border-radius: 10px;
     border-top-left-radius: 330px;
     border-top-right-radius: 330px;
+    pointer-events: all;
 }
 
 .profile img:hover {
@@ -35,9 +37,9 @@
 
 .animation {
     position:absolute;
-    top: 30rem;
-    left:8rem;
-    /* opacity:0; */
+    top: 0;
+    scale:1.7;
+    pointer-events: none;
 }
 
 .animation img:hover {

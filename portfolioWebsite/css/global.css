@@ -23,15 +23,28 @@ header {
     background-color: #EDC9CA;
     font-family: 'Chewy', sans-serif;
     font-size: 1.5rem;
+    margin-bottom: 3rem;
     /* background: url('../imgs/fixed.jpg'); */
   }
 
-  .bg {
+  
+
+  .bg { 
     margin: 0;
     padding: 0;
     width:100%;
-    height:20rem;
+   
     /* background: url('../imgs/fixed.jpg'); */
+  }
+
+  .wrapper {
+    position: absolute;
+    bottom:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
 
   h1 {
@@ -46,65 +59,43 @@ header {
 }
 
 .logo {
- position: absolute;
-margin:1rem;
-padding:1.5rem;
+ 
+margin:1rem 1rem 0 1rem;
+padding:1.5rem 1.5rem 0 1.5rem;
 width:500px;
-top:9rem;
+
 border-radius:30px;
 
 }
 
-/* in between screens */
-@media screen and (min-width:1025px) and (max-width:1430px) {
-    .logo {
-       
-        background-color: rgba(93, 93, 93, 0.2);
-    }
-
+.hidden {
+    display: none;
 }
+
 
 /* Tablet Sized Screens */
 
 @media screen and (min-width:768px) and (max-width:1024px) {
-    header {
-        flex-direction: column;
-        justify-content: center;
-        align-items: stretch;
-        text-align: center;
-        padding:0;
+    
+
+    .logo{
+        position: absolute;
+        top:-100;
+        width:35%;
     }
 
-    img{
-        margin:0.5;
-    }
-
-    .logo {
-        width:300px;
-        top:4rem;
-        background-color: rgba(93, 93, 93, 0.2);
-    }
+    
 }
 
 /* mobile screen */
 
 @media screen and (max-width:768px) {
+
+    .logo{
+        position: absolute;
+        top:-100;
+        width:50%;
+    }
     
-    header {
-        flex-direction: column;
-        justify-content: center;
-        align-items: stretch;
-        text-align: center;
-        padding:0;
-    }
-
-    img{
-        margin:0.5;
-    }
-
-    .logo {
-        width:300px;
-        top:3rem;
-        background-color: rgba(93, 93, 93, 0.2);
-    }
+   
 }
