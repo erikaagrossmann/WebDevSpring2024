@@ -11,7 +11,7 @@ h2 {
 
 .pic {
     padding:1rem;
-    width:700px;
+    max-width:700px;
 }
 
 .pic img {
@@ -55,7 +55,6 @@ h2 {
 
 .icon h4:hover {
     opacity:1;
-    cursor:pointer;
 }
 
 /* Tablet Sized Screens */

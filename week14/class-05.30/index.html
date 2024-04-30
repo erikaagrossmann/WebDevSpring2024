@@ -65,10 +65,10 @@
       }
 		</style>
 	</head>
-	<body id="tech">
+	<body >
 		<div class="container w-50 p-5 mt-5 rounded-5 shadow" id="green">
 			<h1>Get in Touch!</h1>
-			<form action="" method="POST">
+			<form action="https://formspree.io/f/xdoqbggb" method="POST">
 				<div class="row mb-3">
 					<div class="col">
 						<label class="col-form-label" for="name">Name:</label>
@@ -103,6 +103,8 @@
           required></textarea>
           <label for="message">Leave a message or comment here</label>
 				</div>
+
+        <input name="subject" type="hidden" value="new submission from {{name}}"/>
 
         <div class="row mt-3">
           <div class="col col-lg-6 offset-lg-6">
