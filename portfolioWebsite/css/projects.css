@@ -92,3 +92,76 @@ z-index: 1000;
     padding:0.5rem;
     margin:2rem;
 }
+
+/* in between screens */
+@media screen and (min-width:1025px) and (max-width:1430px) {
+    .work{
+        width:48%;
+    }
+
+    .billboard img {
+        width:100%;
+    }
+
+    .cup img {
+        width:100%;
+    }
+
+    .icons img{
+        width:60%;
+    }
+
+    .collab img{
+        width:100%;
+    }
+}
+
+
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .work{
+        width:48%;
+    }
+
+    .billboard img {
+        width:100%;
+    }
+
+    .cup img {
+        width:100%;
+    }
+
+    .icons img{
+        width:60%;
+    }
+
+    .collab img{
+        width:100%;
+    }
+}
+
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+    .work{
+        width:98%;
+    }
+
+    .billboard img {
+        width:100%;
+    }
+
+    .cup img {
+        width:100%;
+    }
+
+    .icons img{
+        width:100%;
+    }
+
+    .collab img{
+        width:100%;
+    }
+   
+}

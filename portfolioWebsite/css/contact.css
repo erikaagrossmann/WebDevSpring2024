@@ -30,13 +30,14 @@ h2 {
  .icon {
     border-radius:30px;
     width:28%;
-    height:500px;
+    height:auto;
     padding:3rem;
     background-color: rgba(209,128,60,0.3);
  }
 
  .icon img {
     border-radius: 15px;
+    width:15rem;
 }
 
  .icon a:hover{
@@ -44,15 +45,11 @@ h2 {
     cursor: pointer;
  }
 
-
-.result {
+.icon h4{
     padding:1rem;
     color: #A65252;
     font-size: 1.5rem;
     text-align: center;
-}
-
-.icon h4{
     opacity:0;
 }
 
@@ -61,13 +58,51 @@ h2 {
     cursor:pointer;
 }
 
-/* .result2 {
-    padding:1rem;
-    color: #A65252;
-    font-size: 1.5rem;
-    text-align: center;
+/* Tablet Sized Screens */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .container{
+        flex-direction: Column;
+        width:60%;
+      
+    }
+
+    .icon{
+        
+        width:100%;
+    }
+
+    .icon .box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:2rem;
+        align-items: center;
+    }
 }
 
-.result2:hover {
-   cursor: pointer;
-} */
+/* mobile screen */
+
+@media screen and (max-width:768px) {
+    .container{
+        flex-direction: Column;
+        width:100%;
+        
+    }
+
+    .icon{
+        
+        width:100%;
+    }
+
+    .icon .box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:2rem;
+        align-items: center;
+    }
+   
+}
