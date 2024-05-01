@@ -41,6 +41,7 @@
     scale:1.8;
     left:3rem;
     pointer-events: none;
+    /* max-width:200px; */
 }
 
 .animation img:hover {
