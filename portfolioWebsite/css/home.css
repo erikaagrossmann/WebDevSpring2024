@@ -19,6 +19,19 @@
    cursor: pointer;
 }
 
+.animation {
+    position:absolute;
+    top: 0;
+    scale:1.8;
+    left:3rem;
+    pointer-events: none;
+    /* max-width:200px; */
+}
+
+.animation img:hover {
+    cursor: pointer;
+ }
+
 .description1 {
     padding:2rem;
     color: rgb(192,82,75);
@@ -35,22 +48,6 @@
     font-weight: 600;
 }
 
-.animation {
-    position:absolute;
-    top: 0;
-    scale:1.8;
-    left:3rem;
-    pointer-events: none;
-    /* max-width:200px; */
-}
-
-.animation img:hover {
-    cursor: pointer;
- }
-
- .active {
-    opacity:1;
-}
 
 /* Tablet Sized Screens */
 
